@@ -1,0 +1,51 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1e1e2f, #2b5876, #4e4376);
+}
+
+h2{
+    font-size: 3rem;
+    color: white;
+    height: 10px;
+}
+
+p{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.post{
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    background-color: aliceblue;
+    width: 500px;
+    text-align: center;
+    overflow: none;
+    height: auto;
+}
+
+h3{
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 20px;
+    color: #444;
+    font-weight: normal;
+}

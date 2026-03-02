@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <h1 class="head"><i class="fa-solid fa-globe"></i>&nbsp;PostSphere</h1>
+    <% for(post of posts){ %>
+        <div class="post">
+            <h3 class="user">@<%=post.username%> -</h3>
+            <h4 class="content">
+                "<%=post.content%>..."
+            </h4>
+            <br>
+            <div class="buttons">
+                <a href="http://localhost:8080/posts/<%= post.id %>" class="anchor"><i class="fa-solid fa-eye"
+                        style="font-size: 15px;"></i>&nbsp;View</a>
+                <a href="http://localhost:8080/posts/<%= post.id %>/edit" class="anchor"><i class="fa-solid fa-pen"
+                        style="font-size: 15px;"></i>&nbsp;Edit</a> <br> <br>
+                <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+                    <button><i class="fa-solid fa-trash"></i>&nbsp;Delete</button>
+                </form>
+            </div>
+            <br>
+        </div>
+        <%}%> <br>
+            <div class="create">
+                <a href="http://localhost:8080/posts/new" class="new"><i class="fa-solid fa-plus"></i>&nbsp;Create Posts</a>
+            </div>
+            <br><br>
+</body>
+
+</html>
