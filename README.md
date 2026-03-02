@@ -6,7 +6,7 @@ This project is currently non-responsive and optimized for desktop view only. So
 
 This is purely a learning project, built to strengthen my understanding of backend development, routing, template rendering, and project structure.
 
-Functionalities
+#Functionalities
 
 • Create new posts
 • View all posts
@@ -17,7 +17,7 @@ Functionalities
 • Clean themed UI with custom CSS
 • RESTful routing implementation
 
-Tech Stack
+#Tech Stack
 
 • Node.js
 • Express.js
@@ -25,6 +25,6 @@ Tech Stack
 • HTML
 • CSS
 
-Ending Note
+#Ending Note
 
 This project represents an important step in my backend development journey. It may not be perfect yet, but future updates will improve responsiveness, fix bugs, and add more advanced features as my skills grow.
