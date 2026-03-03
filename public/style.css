@@ -23,12 +23,14 @@ body{
     height: auto;
     border: none;
     border-radius: 10px;
-    /* background-color: #2b5876; */
     background-color: rgb(223, 238, 250);
     color: black;
     margin-top: 20px;
     margin-left: 20px;
-    overflow: none;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;     
+    word-break: break-word;    
+    padding: 15px;
 }
 
 h1{
