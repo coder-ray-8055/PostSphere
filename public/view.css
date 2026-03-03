@@ -9,9 +9,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     background: linear-gradient(135deg, #1e1e2f, #2b5876, #4e4376);
+    padding-bottom: 40px;
 }
 
 h2{
@@ -34,7 +35,9 @@ p{
     background-color: aliceblue;
     width: 500px;
     text-align: center;
-    overflow: none;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;     
+    word-break: break-word;  
     height: auto;
 }
 
@@ -48,4 +51,8 @@ h4{
     font-size: 20px;
     color: #444;
     font-weight: normal;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
